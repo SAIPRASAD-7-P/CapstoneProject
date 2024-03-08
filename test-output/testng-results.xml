@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T22:29:19 IST" name="Default suite" finished-at="2024-03-06T22:29:28 IST" duration-ms="8120">
+    <groups>
+    </groups>
+    <test started-at="2024-03-06T22:29:19 IST" name="Default test" finished-at="2024-03-06T22:29:28 IST" duration-ms="8120">
+      <class name="com.cra.qa.testcases.BankingCustomerTestcase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cra.qa.testcases.BankingCustomerTestcase@942a29c]" started-at="2024-03-06T22:29:19 IST" name="setup" finished-at="2024-03-06T22:29:25 IST" duration-ms="5240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cra.qa.testcases.BankingCustomerTestcase@942a29c]" started-at="2024-03-06T22:29:25 IST" name="setUp" finished-at="2024-03-06T22:29:26 IST" duration-ms="1439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCustomerLogin()[pri:1, instance:com.cra.qa.testcases.BankingCustomerTestcase@942a29c]" started-at="2024-03-06T22:29:26 IST" name="validateCustomerLogin" finished-at="2024-03-06T22:29:27 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cra.qa.testcases.BankingCustomerTestcase@942a29c]" started-at="2024-03-06T22:29:27 IST" name="tearDown" finished-at="2024-03-06T22:29:28 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.cra.qa.testcases.BankingCustomerTestcase@942a29c]" started-at="2024-03-06T22:29:28 IST" name="teardown" finished-at="2024-03-06T22:29:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.cra.qa.testcases.BankingCustomerTestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

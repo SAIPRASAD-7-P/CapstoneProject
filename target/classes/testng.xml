@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="FREE CRM Application Test Automation Test Suite"> -->
+ 
+ <suite name="TestSuite">
+ 
+ <!--<parameter name="browser" value="chrome"></parameter> -->
+
+	<listeners>
+<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+</listeners> 
+ 
+ 
+	<!--<test name="Free CRM App Test Cases"> -->
+
+	<test name="XYZ Bank Test Cases">
+
+
+<classes>
+
+<class name="com.cra.qa.testcases.BankingCustomerLoginTestcase"></class>
+
+<!--<class name="com.crm.qa.testcases.logintestcase"></class>
+<class name="com.crm.qa.testcases.HomePageTestcase"></class>  -->
+
+<!-- <class name="com.crm.qa.testcases.HomePageTest"></class>
+<class name="com.crm.qa.testcases.ContactsPageTest"></class> -->
+ 
+ 
+		</classes>
+</test>
+</suite>
